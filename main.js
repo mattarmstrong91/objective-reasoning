@@ -1,6 +1,36 @@
 // ┌─────────────────┐
 // │ Your code here! │	
 // └─────────────────┘
+{
+    firstName: String,
+    lastname: String,
+    userRole: String
+}
+```
+
+**Examples**
+```
+isAdmin({
+    firstName: 'Eileen',
+    lastName: 'Smith',
+    userRole: 'REGULAR_USER'
+})
+=> false
+isAdmin({
+    firstName: 'Ian',
+    lastName: 'Rogers', 
+    userRole: 'USER_MANAGER'
+})
+=> false
+isAdmin({
+    firstName: 'Jeff',
+    lastName: 'Wilson', 
+    userRole: 'ADMIN'
+})
+=> true
+```
+
+## `getEmail`
 
 
 
